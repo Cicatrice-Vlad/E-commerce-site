@@ -1,5 +1,4 @@
 # E-commerce-site
-# <Your-Project-Title>
 
 ## Description
 
