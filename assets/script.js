@@ -2,9 +2,8 @@
 var cardArr = [0, 1, 2, 3, 4, 5,];
 
 function displayBlock() {
-  //what the hour is
   var blockHTML = "";
-  var currentDiv = cardArr[i]; // current hour is equal to the the current index
+  var currentDiv = cardArr[i];
 
   for (var i = 0; i < cardArr.length; i++) {
     blockHTML += `<div class="card mb-4 ml-auto">
