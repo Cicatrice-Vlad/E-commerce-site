@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Online buy</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./assets/style-footer.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Navbar</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+          Search
+        </button>
+      </form>
+    </div>
+  </nav>
+  <div class="jumbotron">
+    <h1 class="display-4">Hello, world!</h1>
+    <p class="lead">
+      This is a simple hero unit, a simple jumbotron-style component for
+      calling extra attention to featured content or information.
+    </p>
+    <hr class="my-4" />
+    <p>
+      It uses utility classes for typography and spacing to space content out
+      within the larger container.
+    </p>
+    <p class="lead">
+      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    </p>
+  </div>
+  <div class="card-deck">
+    <div class="card">
+      <img class="card-img-top" src="..." alt="Card image cap" />
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">
+          This is a wider card with supporting text below as a natural lead-in
+          to additional content. This content is a little bit longer.
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="..." alt="Card image cap" />
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">
+          This card has supporting text below as a natural lead-in to
+          additional content.
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="..." alt="Card image cap" />
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">
+          This is a wider card with supporting text below as a natural lead-in
+          to additional content. This card has even longer content than the
+          first to show that equal height action.
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="container">
+    <footer class="py-5">
+      <div class="row">
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Product</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Services</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-md-5 offset-md-1 mb-3">
+          <form>
+            <h5>Subscribe to our newsletter</h5>
+            <p>Monthly digest of what's new and exciting from us.</p>
+            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+              <label for="newsletter1" class="visually-hidden">Email address</label>
+              <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+              <button class="btn btn-primary" type="button">Subscribe</button>
+            </div>
+          </form>
+        </div>
+      </div>
+  
+      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+        <p>© 2022 Company, Inc. All rights reserved.</p>
+        <ul class="list-unstyled d-flex">
+          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+        </ul>
+      </div>
+    </footer>
+  </div> -->
+
+
+
+  <!-- footer section -->
+  <section id="footer">
+    <!-- Quick Links div -->
+    <div class="container">
+      <!-- text center in xs screen, small and medium on the left side-->
+      <div class="row text-center text-xs-center text-sm-left text-md-left">
+        <!-- offset - move columns to the right, set mb margin bottom to 3-->
+        <div class="col-md-5 offset-md-1 mb-3">
+          <h5>Quick links</h5>
+          <!---------------------to update - placeholder for different section of the page-->
+          <ul class="list-unstyled quick-links">
+            <li>
+              <a href="#"> <i class="fa fa-chevron-right"> </i> Home </a>
+            </li>
+            <li>
+              <a href="#"> <i class="fa fa-chevron-right"> </i> About Us </a>
+            </li>
+            <li>
+              <a href="#"> <i class="fa fa-chevron-right"> </i> Products </a>
+            </li>
+            <li>
+              <a href="#"> <i class="fa fa-chevron-right"> </i> Services </a>
+            </li>
+            <li>
+              <a href="#"> <i class="fa fa-chevron-right"> </i> FAQ </a>
+            </li>
+          </ul>
+        </div>
+        
+        <!-- Newsletter email div-->
+        <!-- offset - move columns to the right, set mb margin bottom to 3-->
+        <div class="col-md-5 offset-md-1 mb-3">
+          <!-- To input email -->
+          <form>
+            <h5>Subscribe to our newsletter</h5>
+            <p class="text-white">Weekly update of what's new and exciting from us.</p>
+            <!-- d-flex transform into flex items, flex column vertical direction margin top-->
+            <div class="d-flex flex-column flex-sm-row  align-sm-center w-100 mt-2 ">
+              <input id="newsletter_email" type="text" class="form-control" placeholder="Email address">
+              <button class="btn my-2 my-sm-0 " type="submit">Subscribe</button>
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- social media div-->
+    <div class="row">
+    <!-- centre of the page for all device, margin top 2 times and 5 times for small device -->
+      <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+        <!-- remove bullet and apply some light margin-->
+        <ul class="list-unstyled list-inline social text-center">
+          <li class="list-inline-item">
+            <a href="https://www.facebook.com"> <i class="fa fa-facebook"> </i> </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://www.twitter.com"> <i class="fa fa-twitter"> </i> </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://www.instagram.com"> <i class="fa fa-instagram"> </i> </a>
+          </li>
+          <!--------------------To amend email address-->
+          <li class="list-inline-item">
+            <a href="mailto:abc@example.com?subject = Feedback&body = Message"> <i class="fa fa-envelope"> </i> </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- end page siganture div-->
+    <div class="row">
+      <!-- centre of the page for all device, margin top 2 times and for small device, text center and white -->
+      <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+        <p class="h6">
+          <!-- end page signature with copyright icon-->
+          2023 <i class="fa fa-copyright" aria-hidden="true"></i> All right Reversed.
+          <!-- To amend - Link to company homepage --> <!-- margin left 2 times * .5-->
+          <a class="text-white" href="index.html"> Company Name </a>
+        </p>
+      </div>
+    </div>
+
+    </div>
+  </section>
+</body>
+
+</html>
