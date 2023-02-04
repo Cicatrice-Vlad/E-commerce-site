@@ -97,11 +97,15 @@ button {
 /* heading style changes with viewpoint size change */
 @media (max-width: 767px) {
   #footer h5 {
-    padding-left: 0;
-    border-left: transparent;
     padding-bottom: 0px;
     margin-bottom: 10px;
-  }
+    border-left: transparent;
+  
+
+}}
+
+p {
+  font-size: 15px;
 }
 
 
