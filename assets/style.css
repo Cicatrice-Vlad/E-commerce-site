@@ -3,7 +3,9 @@
   width: auto;
 }
 
-
+.carousel-item {
+  width: 100%;
+}
 
 section {
   padding: 60px 0;
