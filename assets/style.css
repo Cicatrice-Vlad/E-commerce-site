@@ -2,6 +2,17 @@
 .container {
   width: auto;
 }
+.navbar {
+  background-color: black;
+}
+
+.nav-link  {
+  color:white;
+}
+
+.nav-link:hover {
+  color: #FF5733;
+}
 
 .carousel-item {
   width: 100%;
