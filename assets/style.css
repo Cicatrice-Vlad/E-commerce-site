@@ -2,22 +2,57 @@
 .container {
   width: auto;
 }
-.navbar {
-  background-color: black;
+
+.card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  margin-top: 40px;
 }
 
-.nav-link  {
-  color:white;
-}
-
-.nav-link:hover {
-  color: #FF5733;
-}
-
-.carousel-item {
+.jumbotron {
   width: 100%;
 }
 
+.hero-text {
+  position: absolute;
+  color: #fff;
+  padding: 0% 15%;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.navbar {
+  background-color: black;
+  height: 7em;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: orange;
+}
+
+.navbar h2 {
+  color: orange;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.navbar-nav {
+  margin-left: 250px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.carousel-item {
+  height: 400px;
+}
 
 section {
   padding: 50px 0;
@@ -54,7 +89,6 @@ section {
   font-size: 25px;
   transition: 0.5s all ease;
   color: #e67e22;
-  
 }
 
 /* when hover the icons under social media div */
@@ -80,7 +114,7 @@ section {
 
 /* quick list items */
 #footer ul.quick-links li {
-    padding: 3px 0;  
+  padding: 3px 0;
   transition: 0.5s all ease;
 }
 
@@ -102,7 +136,7 @@ section {
 }
 
 button {
-  background-color: #e67e22;;
+  background-color: #e67e22;
 }
 
 /* to prompt the feedback of email submission */
@@ -116,9 +150,9 @@ button {
     padding-bottom: 0px;
     margin-bottom: 10px;
     border-left: transparent;
-}}
+  }
+}
 
 p {
   font-size: 15px;
 }
-
