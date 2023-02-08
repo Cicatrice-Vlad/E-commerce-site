@@ -8,11 +8,18 @@
 
 .nav-link  {
   color:white;
+  
 }
 
 .nav-link:hover {
-  color: #FF5733;
+  color: orange;
 }
+
+.navbar h1 {
+  color:orange;
+}
+
+
 
 .carousel-item {
   width: 100%;
