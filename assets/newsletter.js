@@ -21,9 +21,9 @@ function submit(event) {
       feedbackElement.setAttribute("class", "hide");
     }, 1000);
   }
+  emailElement.value = "";
 };
 
-submit();
 
 // Event Listener button
 submitButton.addEventListener("click", submit);
