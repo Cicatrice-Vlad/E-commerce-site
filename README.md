@@ -16,7 +16,15 @@
 Interactive and responsive website with Javascript, Jquery, CSS, HTML used.
 Client side storage and validation were used for email subscription list, which is pending for future development upgrade.
 
-//to insert screenshot//
+https://cicatrice-vlad.github.io/E-commerce-site/
+
+![Online-Shopping-carr](https://user-images.githubusercontent.com/117217710/217879238-e0f0cc85-2ecf-4634-8535-988d9cc774f2.jpg)
+
+
+## Badges
+
+![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
+
 
 ## Credits
  * Vlad Bargaoanu @Cicatrice-Vlad
@@ -48,5 +56,4 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-## Link
-https://cicatrice-vlad.github.io/E-commerce-site/
+
