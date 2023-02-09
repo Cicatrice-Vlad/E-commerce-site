@@ -3,7 +3,7 @@
 ## Description
 
 - What was your motivation?
-    * In the beginning, the trade was made on the water, between merchants of the whole world on our beloved NILE." The four of us are trying to link up worldwide customers to the mysterious NILE merchants, so we are building this e-commerce website to showcase our product offering.
+    * "In the beginning, the trade was made on the water, between merchants of the whole world on our beloved NILE." The four of us are trying to link up worldwide customers to the mysterious NILE merchants, so we are building this e-commerce website to showcase our product offering.
 
 - What problem does it solve?
     * This website can help customer to have more exposure to the NILE, and can purchase associated products to support the culture.
