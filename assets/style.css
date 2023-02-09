@@ -54,13 +54,10 @@
   height: 400px;
 }
 
-section {
-  padding: 50px 0;
-}
-
 /* whole footer background color */
 #footer {
   background: black;
+  padding: 10px 0;
 }
 
 /* subheading */
