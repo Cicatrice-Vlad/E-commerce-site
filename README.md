@@ -18,7 +18,17 @@ Client side storage and validation were used for email subscription list, which 
 
 https://cicatrice-vlad.github.io/E-commerce-site/
 
-![Online-Shopping-carr](https://user-images.githubusercontent.com/117217710/217879238-e0f0cc85-2ecf-4634-8535-988d9cc774f2.jpg)
+Main Page of the website
+![main](./assets/images/screenshot/main.png)
+
+Product section
+![products](./assets/images/screenshot/products.png)
+
+Footer section
+![footer](./assets/images/screenshot/footer.png)
+
+Local storage
+![localstorage](./assets/images/screenshot/localstorage.png)
 
 
 ## Badges
